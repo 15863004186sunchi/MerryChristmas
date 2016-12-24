@@ -1,4 +1,5 @@
-# 情人节表白程序 - Qiugouda_Love
+# MerryChristmas
+Just a site for christmas
 
 麦葱已将源码已发布到 Github，喜欢的可以 `Star` 或 `Fork` 本源码。
 
@@ -49,3 +50,5 @@ loveTpl.html
 注：这是一个自动生成表白页面的程序，模版由 jianghongfei.com.cn 原创
 麦葱(maicong.me) 做二次开发，仅限娱乐，不得用于商业用途！
 ```
+
+
