@@ -85,7 +85,7 @@ $(function() {
             "bdUrl": shareurl + $("#text-href").text() + ".html",
             "bdMini": "2",
             "bdMiniList": ["mshare", "qzone", "tsina", "bdysc", "weixin", "renren", "tqq", "bdxc", "kaixin001", "tqf", "tieba", "douban", "tsohu", "bdhome", "sqq", "thx", "qq", "ibaidu", "taobao", "hi", "baidu", "sohu", "t163", "qy", "meilishuo", "mogujie", "diandian", "huaban", "leho", "share189", "duitang", "hx", "tfh", "fx", "youdao", "sdo", "qingbiji", "ifeng", "people", "xinhua", "ff", "mail", "kanshou", "isohu", "yaolan", "wealink", "xg", "ty", "iguba", "fbook", "twi", "deli", "s139"],
-            "bdPic": URL + "/img/319280.jpg",
+            "bdPic": URL + "/img/Free-Christmas-Pictures.jpg",
             "bdStyle": "1",
             "bdSize": "32"
         },

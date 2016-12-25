@@ -1,6 +1,6 @@
 <?php
 // error_reporting(0);
-
+date_default_timezone_set('PRC');
 if (isset($_GET['add']) && isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest') {
     $textHref = trim(strip_tags($_POST['textHref']));
     $textHref = str_replace('\'', '', $textHref);

@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('PRC');
 if (isset($_SERVER['HTTPS']) || '443' === $_SERVER['SERVER_PORT']) {
     $url = 'https://';
 } else {
@@ -26,7 +27,7 @@ if (isset($_SERVER['HTTPS']) || '443' === $_SERVER['SERVER_PORT']) {
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="author" content="情人节,表白程序,情人节表白程序,自动生成表白程序,自动表白程序">
 	<meta name="description" content="这是一个自动生成表白页面的程序，模版由 jianghongfei.com.cn 原创，麦葱(maicong.me)做二次开发，仅限娱乐，不得用于商业用途">
-	<title>情人节自动生成表白程序</title>
+	<title>圣诞快乐Lucy</title>
 	<link rel="stylesheet" href="css/all.css">
 </head>
 <body>
@@ -37,7 +38,7 @@ if (isset($_SERVER['HTTPS']) || '443' === $_SERVER['SERVER_PORT']) {
 		<div class="ft-section section-1" data-id="section-1">
 			<div id="/section-1/page-1" class="ft-page page-1" data-id="page-1">
 				<p class="text1"><span id="text-75" contenteditable="true">小明</span> ❤ <span id="text-76" contenteditable="true">小红</span> <span id="text-77" contenteditable="true">一生一世</span></p>
-				<p class="text2">按键盘 "↓" <span id="text-78" contenteditable="true">开始倾听我的表白</span></p>
+				<p class="text2">按键盘 "↓" 或者下滑屏幕<span id="text-78" contenteditable="true"> 圣诞老人要发礼物啦</span></p>
 			</div>
 			<div id="/section-1/page-2" class="ft-page page-2" data-id="page-2">
 				<p class="top-text" id="text-1" contenteditable="true">过去的小明一直是一个人生活，享受着孤独，也憧憬着爱情。</p>
@@ -305,8 +306,8 @@ if (isset($_SERVER['HTTPS']) || '443' === $_SERVER['SERVER_PORT']) {
 	<div class="write-ok">
 		<div class="write-box">
 			<h2>还差一步即可生成表白页面</h2>
-			<p id="write-mp3">自定义背景音乐：<span id="text-music" contenteditable="true"><?php echo $url.$_SERVER['HTTP_HOST']; ?>/love/music/saveme</span><i></i>.mp3</p>
-			<p id="write-url">自定义表白链接：<u><?php echo $url.$_SERVER['HTTP_HOST']; ?>/love/<?php echo date('Y', time()); ?>/</u><span id="text-href" contenteditable="true"><?php echo time(); ?></span><i></i><u>.html</u></p>
+			<p id="write-mp3">自定义背景音乐：<span id="text-music" contenteditable="true"><?php echo $url.$_SERVER['HTTP_HOST']; ?>/music/saveme</span><i></i>.mp3</p>
+			<p id="write-url">自定义表白链接：<u><?php echo $url.$_SERVER['HTTP_HOST']; ?>/<?php echo date('Y', time()); ?>/</u><span id="text-href" contenteditable="true"><?php echo time(); ?></span><i></i><u>.html</u></p>
 			<p><small>自定义链接名只能为3-30位的字母[a-zA-Z]、数字[0-9]、- 和 _ </small></p>
 			<small><a href="###" id="back">重新修改</a></small> <button id="write-post">❤ 生成表白页面</button>
 			<div class="write-share">

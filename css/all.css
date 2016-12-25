@@ -1078,20 +1078,24 @@ button {
     background-color: #febebe
 }
 .page-54 {
-    background: url(../img/319280_bg.jpg) #d3d2d0
+    background: url(../img/Free-Christmas-Pictures.jpg) #d3d2d0;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -webkit-background-origin:content-box; /* Safari */
+    background-origin:content-box;
 }
 .page-55,
 .write-tip {
     background-color: #fff
 }
-.page-54 .center-img {
-    background-image: url(../img/319280.jpg);
+/*.page-54 .center-img {
+    background-image: url(../img/Free-Christmas-Pictures.jpg);
     text-indent: -99999px
-}
-.page-54 h3 {
+}*/
+/*.page-54 h3 {
     line-height: 1rem;
     padding-top: .5em
-}
+}*/
 .write-tip {
     display: block;
     color: #333;
